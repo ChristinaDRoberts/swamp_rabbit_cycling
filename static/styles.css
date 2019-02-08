@@ -56,19 +56,14 @@ a{
 
 
 
-/*.background{*/
-    /*!*opacity: 0.2;*!*/
-    /*z-index: -1;*/
-
-/*}*/
 
 @media only screen and (min-width: 480px) {
-   .container {
+    .container {
 
-       margin: 0 auto;
-       max-width:100%;
+        margin: 0 auto;
+        max-width: 100%;
 
-   }
+    }
 
     * {
         width: 900px;
@@ -81,18 +76,18 @@ a{
         text-align: center;
     }
 
-    .logo{
+    .logo {
         width: 300px;
-        height:150px;
+        height: 150px;
     }
 
-    img{
+    img {
         display: inline-block;
-        width:250px;
+        width: 250px;
 
     }
 
-    .hello{
+    .hello {
         display: block;
         border: 2px solid lightgray;
         width: 900px;
@@ -101,12 +96,13 @@ a{
         text-align: center;
     }
 
-    .from{
-        width:60%;
+    .from {
+        width: 60%;
         height: 40%;
     }
 
-    .contact{
+    .contact {
         height: 160px;
     }
+}
 
